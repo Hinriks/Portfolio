@@ -1,3 +1,62 @@
-.wrap {
+html {
+    height: 100%;
+}
+body {
+    /*background-color: #212121;*/
+    background-image: linear-gradient(to bottom, #243B55, #141E30);
+    color: white;
+    font-family: 'Righteous';
+    height: 100%;
+    margin: 0;
+}
+.header {
+    height: 140px;
+    text-align: left;
+    padding-left: 20px;
+}
+.subtitle {
+    font-size: 22px;
+    margin-top: -15px;
+    margin-left: 350px;
+    height: 20px
+}
+
+.content {
+    margin: 0 auto;
     text-align: center;
+    padding-top: 100px;
+    width: 600px
+}
+h1 {
+    font-size: 76px;
+    margin: 0;
+}
+h4 {
+    font-size: 22px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: contain;
+    filter: invert(100%)
+}
+#link-email {
+    background-image: url('img/004-email.svg');
+}
+#link-github {
+    background-image: url('img/002-github.svg');
+}
+#link-instagram {
+    background-image: url('img/001-instagram.svg');
+}
+#link-facebook {
+    background-image: url('img/003-facebook.svg');
 }
